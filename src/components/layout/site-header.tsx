@@ -17,8 +17,8 @@ export function SiteHeader({ country }: SiteHeaderProps) {
         </Link>
 
         <nav style={{ display: "flex", alignItems: "center", gap: "var(--space-4)", color: "var(--color-neutral-700)" }}>
-          <Link href={`/${country}`}>Productos!!!</Link>
-          <Link href="/admin">Mantenedor</Link>
+          <Link href={`/${country}`}>Productos</Link>
+          <Link href="/admin">Iniciar sesión</Link>
         </nav>
       </div>
     </header>
